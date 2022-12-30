@@ -40,7 +40,7 @@ const DisplayCampaign = ({ title, isLoading, campaings }) => {
               key={campaign.id}
               {...campaign}
               handleClick={() => handleNavigate(campaign)}
-            />
+            /> 
           ))}
       </div>
     </div>
